@@ -11,4 +11,4 @@ const container = document.querySelector('#main');
                 container.classList.remove("dark-mode");
             }
             toggle = !toggle;
-        })
+        });
