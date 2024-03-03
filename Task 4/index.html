@@ -27,27 +27,34 @@
 
 <body>
 
+    <h2>
+        Ques4 - You are tasked to create form validation using JS DOM. Ensure
+        that the username must be at least 3 characters long, and the
+        password must be at least 8 characters long. On form
+        submission, display an alert stating "Form Validation successful"
+        if the conditions are met, otherwise, show "Form Validation
+        failed." Remember, on form submission, the webpage must not
+        be reloaded.
+    </h2>
 
-    <form>
+
+    <form id="frm">
 
         <label for="">UserName -</label>
-        <input id="userName" type="text" required>
-        <div id="error">username should be more than 3 characetrs</div>
-
-        <label for="">Email -</label>
-        <input id="email" type="email" required>
-        <div id="error"></div>
+        <input id="userName" type="text" placeholder=" 3 characters long">
 
         <label for="">Password -</label>
-        <input id="password" type="password" required>
-        <div id="error"></div>
+        <input id="password" type="password" placeholder="8 characters long">
 
-        <button >submit</button>
+        <button id="btn">submit</button>
 
     </form>
 
-    <!-- incomplete -->
 
+
+
+
+    <script src="script4.js"></script>
 </body>
 
 </html>
