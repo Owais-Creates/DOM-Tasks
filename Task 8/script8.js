@@ -22,7 +22,7 @@ const cardContainer = document.querySelector('.card-container');
 let output = '';
 
 data.forEach((item) => {
-    output += `<div class="card">
+   return output += `<div class="card">
         <img src="${item.src}" alt="photo">
         <h3>${item.Uname}</h3>
     </div>`;
@@ -37,7 +37,7 @@ searchInput.addEventListener("input", function () {
     let newCard = "";
 
     data.filter((items) => {
-        if (items.Uname.toLowerCase().startsWith(searchInput.value.toLowerCase())) {
+        if (items.Uname.toLowerCase().includes(searchInput.value.toLowerCase())) {
             newCard += `<div class="card">
             <img src="${items.src}" alt="photo">
             <h3>${items.Uname}</h3>

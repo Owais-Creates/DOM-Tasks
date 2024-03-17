@@ -39,7 +39,7 @@ const paragraphs = document.querySelectorAll("p");
 const questions = document.querySelectorAll(".ques");
 const span = document.querySelectorAll(".ques > span");
 
-questions.forEach((ques,index) => {
+questions.forEach((ques,index) => {z
     ques.addEventListener("click", () => {
 
         const answer = ques.nextElementSibling;
