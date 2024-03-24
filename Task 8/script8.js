@@ -22,7 +22,7 @@ const cardContainer = document.querySelector('.card-container');
 let output = '';
 
 data.forEach((item) => {
-   return output += `<div class="card">
+    output += `<div class="card">
         <img src="${item.src}" alt="photo">
         <h3>${item.Uname}</h3>
     </div>`;

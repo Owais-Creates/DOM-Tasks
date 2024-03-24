@@ -7,16 +7,14 @@ heading.innerText = "Fruits list";
 container.appendChild(heading);
 
 // creating options for the dropdown menu
-const dropDownMenu = () => {
-    let list = ["apple", "orange", "pineapple", "banana"];
+
+    let list = ["apple", "orange", "pineapple", "banana",];
 
     list.forEach((value)=> {
         let option = document.createElement("option");
         option.innerText = value;
         dropDownElem.appendChild(option);
     })
-};
-dropDownMenu()
 
 container.appendChild(dropDownElem);
 

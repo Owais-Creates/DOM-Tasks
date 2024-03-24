@@ -17,7 +17,7 @@ const formSubmission = form.addEventListener( 'submit', (e) => {
     }
 });
 
-// resetting the values of input fields when user reloads the page.
+// resetting the values of input fields when user reloads the page.`
 window.addEventListener('load', function () {
     userName.value = "";
 });
